@@ -1,0 +1,23 @@
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Environment and credentials
+.env
+.venv/
+venv/
+.streamlit/secrets.toml
+
+# Original and cleaned datasets
+Cleaned datasets/
+smartlogix_datasets-*/
+*.zip
+
+# Large model files
+models/
+*.pkl
+*.joblib
+
+# Videos and system files
+*.mp4
+.DS_Store
